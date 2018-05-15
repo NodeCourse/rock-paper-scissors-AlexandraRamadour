@@ -1,0 +1,17 @@
+html
+    head
+        title Rock-Paper-Scissors
+        link(rel="stylesheet", href="/css/styles.css")
+    body
+        main
+            h1 Ready to play ?
+
+            p Make your Choice
+
+
+                for ch in choice
+    
+                    div    
+                        h4 #{ch.name}
+                        a(href="/play/" + ch.id)
+                            img(src="images/"+ch.id+".png")
